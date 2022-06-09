@@ -10,6 +10,7 @@ Take your skills to a new level and join millions of users that have learned  ja
 - mouseenter()
 - mouseleave()
 </details>
+
 ## class 2 Overview
 <details>
 <summary>Click Here</summwry>
