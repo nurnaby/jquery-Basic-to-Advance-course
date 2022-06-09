@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<body>
+    <div class="container">
+        <h2>basice jquery selectorz</h2>
+        <div class="test">
+            <h3>Test Box</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius sapiente debitis aut eaque atque ratione enim ullam optio maiores minima?</p>
+        </div>
+        <div id="ul">
+            <li>orange</li>
+            <li>apple</li>
+            <li>banana</li>
+            <li>orange</li>
+            <li>orange</li>
+        </div>
+    </div>
+    <div class="container">
+        <label for="html">Name</label><br>
+        <input type="text" id="uname"><br>
+        <label for="html">class</label><br>
+        <input type="text" id="uclass"><br>
+        <select id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="vw">VW</option>
+            <option value="audi" selected>Audi</option>
+          </select><br>
+        <input type="submit" name="submit">
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('body').keypress(function() {
+                $(this).css('background-color', 'orange');
+            });
+            $('body').keyup(function() {
+                $(this).css('background-color', 'green');
+            });
+
+
+            $('#uname').focus(function() {
+                $(this).css('background-color', 'red');
+
+            });
+
+        });
+    </script>
+</body>
+
+</html>
