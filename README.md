@@ -13,7 +13,8 @@ Take your skills to a new level and join millions of users that have learned  ja
 
 ## class 2 Overview
 <details>
-<summary>Click Here</summwry>
+<summary>Click Here</summary>
+
 ### Get methods 
 </details>
 
