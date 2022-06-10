@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>class 2</title>
+    <title>class 3</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -15,7 +15,7 @@
         <h2>basice jquery selectorz</h2>
         <div class="test">
             <h3>Test Box</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius sapiente debitis aut eaque atque ratione enim ullam optio maiores minima?</p>
+            <p>Lorem ipsum dolor sit, amet consecteturconsectetur adipisicing elit. Eius sapiente debitis aut eaque atque ratione enim ullam optio maiores minima?</p>
         </div>
         <div id="ul">
             <li>orange</li>
@@ -24,8 +24,10 @@
             <li>orange</li>
             <li>orange</li>
         </div>
+        <button id="submit">Submit</button>
     </div>
-    <div class="container">
+
+    <!-- <div class="container">
         <label for="html">Name</label><br>
         <input type="text" id="uname"><br>
         <label for="html">class</label><br>
@@ -38,23 +40,22 @@
           </select><br>
         <input type="submit" name="submit">
 
-    </div>
+    </div> -->
 
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
-        $(document).ready(function() {
-            // get methods jquery 
-            // text()
-            // html()
-            // attr()
-            // val()
-            var a = $('#cars').html();
-            console.log(a);
-            var b = $('.container').text();
-            console.log(b);
+        // Set methods
+        // text()
+        // attr()
+        // val()
 
+        $(document).ready(function() {
+            $('#submit').click(function() {
+                $('.test h3').text('get methode');
+                $('.test p').html('how to learning <b>jquery</b> ');
+            });
         });
     </script>
 </body>

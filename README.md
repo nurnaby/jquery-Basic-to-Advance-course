@@ -18,3 +18,15 @@ Take your skills to a new level and join millions of users that have learned  ja
 ##### Get methods 
 </details>
 
+## class 3 Overview
+<details>
+<summary>Click Here</summary>
+
+##### set  methods 
+
+###### text()
+###### html()
+###### attr()
+###### val()
+</details>
+
