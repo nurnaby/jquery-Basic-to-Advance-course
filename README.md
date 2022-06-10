@@ -15,6 +15,6 @@ Take your skills to a new level and join millions of users that have learned  ja
 <details>
 <summary>Click Here</summary>
 
-### Get methods 
+##### Get methods 
 </details>
 
