@@ -42,3 +42,15 @@ Take your skills to a new level and join millions of users that have learned  ja
 ###### 4 val()
 </details>
 
+## class 5 Overview
+<details>
+<summary>Click Here</summary>
+
+##### After before empty remove 
+
+###### 1 After
+###### 2 before
+###### 3 empty()
+###### 4 remove()
+</details>
+

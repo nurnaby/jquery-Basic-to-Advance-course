@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>class 3</title>
+    <title>class 4</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <body>
     <div class="container">
-        <div class="#">
+        <div id="box">
             <h2>basice jquery selectorz</h2>
             <div class="test">
                 <h3>Test Box</h3>
@@ -32,6 +32,7 @@
             <button id="addClass">Add class </button>
             <button id="removeClass">Remove class </button>
             <button id="toggleClass">Toggle class </button>
+            <button id="emptybtn">empty </button>
         </div>
     </div>
 
@@ -57,8 +58,19 @@
     <script>
         $(document).ready(function() {
             $('#addClass').click(function() {
-                $
+                $('#box').addClass("frist");
             });
+            $('#removeClass').click(function() {
+                $('#box').removeClass("frist");
+            });
+            $('#toggleClass').click(function() {
+                $('#box').toggleClass("frist");
+            });
+            $('#emptybtn').click(function() {
+                $('#box h2').empty();
+            });
+
+
         });
     </script>
 </body>
