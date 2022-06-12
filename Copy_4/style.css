@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.container .test {
+    width: 80%;
+    border: 1px solid rgb(65, 55, 55);
+    padding: 10px;
+}
+
+.box {
+    background-color: rgb(230, 87, 44);
+    padding: 10px;
+    margin-bottom: 20px;
+}

@@ -22,11 +22,23 @@ Take your skills to a new level and join millions of users that have learned  ja
 <details>
 <summary>Click Here</summary>
 
-##### set  methods 
+##### class methods
 
 ###### text()
 ###### html()
 ###### attr()
 ###### val()
+</details>
+
+## class 4 Overview
+<details>
+<summary>Click Here</summary>
+
+##### set  methods 
+
+###### 1 Add class()
+###### 2 Remove()
+###### 3 Toggle class()
+###### 4 val()
 </details>
 
