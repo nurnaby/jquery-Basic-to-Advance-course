@@ -54,3 +54,14 @@ Take your skills to a new level and join millions of users that have learned  ja
 ###### 4 remove()
 </details>
 
+## class 6 Overview
+<details>
+<summary>Click Here</summary>
+
+##### After before empty remove 
+
+###### 1 appendTo
+###### 2 prependTo
+
+</details>
+
