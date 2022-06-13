@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>class 6</title>
+    <title>class 7</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -17,28 +17,24 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo esse iste pariatur cumque totam facere nostrum sed vitae corporis accusamus. A tempora, similique commodi ea ipsa est porro officiis officia?</p>
     </div>
     <br>
-    <button id="appendto">AppendTo</button>
-    <button id="prependto">PrependTo</button>
-    <button id="emptybtn">empty</button>
-    <button id="removebtn">remove</button>
-    <button id="hide">hide</button>
-    <button id="show">show</button>
-
-
+    <button id="fadein">fadein</button>
+    <button id="fadeout">fadeout</button>
+    <button id="fadeToggle">fadeToggle</button>
+    <button id="fadeTo">fadeTo</button>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
         $(document).ready(function() {
-            $('#appendto').click(function() {
-                $('<h1>jquery append function</h1>').appendTo('#box');
+            $('#fadeout').click(function() {
+                $('#box').fadeOut(3000);
             });
-            $('#prependto').click(function() {
-                $('<h1>jquery prependto function</h1>').prependTo('#box');
+            $('#fadein').click(function() {
+                $('#box').fadeIn();
             });
-            $('#hide').click(function() {
-                $('#box').hide(3000);
+            $('#fadeToggle').click(function() {
+                $('#box').toggle();
             });
-            $('#show').click(function() {
-                $('#box').show();
+            $('#fadeTo').click(function() {
+                $('#box').fadeTo(1000, 0.4);
             });
         });
     </script>

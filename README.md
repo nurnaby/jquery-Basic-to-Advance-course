@@ -62,6 +62,13 @@ Take your skills to a new level and join millions of users that have learned  ja
 
 ###### 1 appendTo
 ###### 2 prependTo
+###### 3 hide
+###### 4 show
+## class 7 Overview
+<details>
+<summary>Click Here</summary>
+
+##### fadein fedeout fadeToggle fadeTo 
 
 </details>
 
