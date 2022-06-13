@@ -64,11 +64,20 @@ Take your skills to a new level and join millions of users that have learned  ja
 ###### 2 prependTo
 ###### 3 hide
 ###### 4 show
+</details>
+
 ## class 7 Overview
 <details>
 <summary>Click Here</summary>
 
 ##### fadein fedeout fadeToggle fadeTo 
 
+</details>
+
+## class 8 Overview
+<details>
+<summary>Click Here</summary>
+
+##### slideUp slideDown slideToggle 
 </details>
 

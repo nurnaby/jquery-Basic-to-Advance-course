@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div id="box">
+        <h3>text box</h3>
+
+    </div>
+    <br>
+    <button id="animate">animate</button>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('#animate').click(function() {
+                $('#box').animate({
+                    left: '200px',
+                    width: '200px',
+                    borderWidth: '5px',
+                    fontSize: '30px',
+                });
+                $('#box').animate({
+                    top: '160px',
+
+
+                });
+                $('#box').animate({
+                    left: '800px',
+                    width: 'hide'
+
+                });
+                $('#box').animate({
+                    left: '810px',
+                    width: 'show'
+
+
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
