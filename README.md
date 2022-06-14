@@ -81,3 +81,17 @@ Take your skills to a new level and join millions of users that have learned  ja
 ##### slideUp slideDown slideToggle 
 </details>
 
+## class 9 Overview
+<details>
+<summary>Click Here</summary>
+
+##### animate() 
+</details>
+
+## class todo project Overview
+<details>
+<summary>Click Here</summary>
+
+### How to work Todo listh 
+</details>
+
