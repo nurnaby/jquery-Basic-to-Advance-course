@@ -88,10 +88,38 @@ Take your skills to a new level and join millions of users that have learned  ja
 ##### animate() 
 </details>
 
-## class todo project Overview
+##  todo project Overview
 <details>
 <summary>Click Here</summary>
 
 ### How to work Todo listh 
+</details>
+
+## class 10 Overview
+<details>
+<summary>Click Here</summary>
+
+##### methode chining
+</details>
+
+## class 11 Overview
+<details>
+<summary>Click Here</summary>
+
+##### Ancestors Methods
+###### parent()
+###### parents()
+###### parentsUntil()
+###### closest()
+###### offsetParent() use css propert position  and work offsetParent
+</details>
+
+## class 12 Overview
+<details>
+<summary>Click Here</summary>
+
+##### Descendants methods
+###### children()
+###### find()
 </details>
 
