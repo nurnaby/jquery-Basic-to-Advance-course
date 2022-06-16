@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>class 12</title>
+    <title>class 13</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,15 +19,22 @@
             <div>A</div>
             <div>B</div>
             <div id="child-c">c</div>
-            <div>D</div>
+            <div id="d">D</div>
         </div>
     </div>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script>
+        // siblings()
+        // next()
+        // nextAll()
+        // nextUntil()
+        // prev()
+        // prevAll()
+        // prevUntil()
         $(document).ready(function() {
-            $('#outer').children('#inner').css('background', 'red');
+            $('#d').siblings().css('background', 'red');
         });
     </script>
 </body>
