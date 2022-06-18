@@ -134,6 +134,18 @@ Take your skills to a new level and join millions of users that have learned  ja
 ###### nextUntil()
 ###### prevAll()
 ###### prevUntil()
+</details>
 
+## class 14 Overview
+<details>
+<summary>Click Here</summary>
+
+##### Filtering methods
+###### first()
+###### last()
+###### eq()
+###### filter()
+###### not()
+###### slice()
 </details>
 
