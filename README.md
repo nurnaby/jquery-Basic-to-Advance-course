@@ -123,12 +123,17 @@ Take your skills to a new level and join millions of users that have learned  ja
 ###### find()
 </details>
 
-## class 12 Overview
+## class 13 Overview
 <details>
 <summary>Click Here</summary>
 
-##### Descendants methods
-###### children()
-###### find()
+##### siblings methods
+###### next()
+###### nextAll()
+###### prev()
+###### nextUntil()
+###### prevAll()
+###### prevUntil()
+
 </details>
 
