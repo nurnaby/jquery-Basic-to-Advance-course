@@ -149,3 +149,12 @@ Take your skills to a new level and join millions of users that have learned  ja
 ###### slice()
 </details>
 
+## class 15 Overview
+<details>
+<summary>Click Here</summary>
+
+##### Filtering methods
+###### has()
+###### is()
+</details>
+

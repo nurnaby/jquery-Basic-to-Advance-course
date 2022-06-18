@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <h2>jquery has() & is()</h2>
+    <div class="box1">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<b>A dolor ipsum doloremque </b> fugit ratione quis maxime perspiciatis ad tempore debitis odio nemo dolore obcaecati, dolorem illum quibusdam autem? Necessitatibus, voluptate!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium optio vel laborum unde cumque. Ducimus architecto tempore tempora sunt magnam.</p>
+    </div>
+    <ul>
+        <li>orange</li>
+        <li><span>Apple</span></li>
+        <li>Banana</li>
+        <li>Grapes</li>
+    </ul>
+
+    <p class="test">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, molestias.</p>
+    <p>Lorem ipsum dolor sit amet consectetur <span class="text">adipisicing elit. Praesentium</span>, optio.</p>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        // has()
+        // is()
+
+        // has()
+        // $(document).ready(function() {
+        //     $('p').has('.text').css('background', 'red');
+        // });
+
+        // is()
+        $(document).ready(function() {
+            $('P').click(function() {
+                if ($(this).parent().is('div')) {
+                    $(this).css('background', 'red');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
